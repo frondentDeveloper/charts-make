@@ -1,0 +1,129 @@
+.main-white-card {
+  width: 97%;
+  padding: 20px;
+  margin-left: 20px;
+  background-color: white;
+  margin-top: 20px;
+  box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+  border-radius: 30px;
+  minheight: 400px; }
+  .main-white-card .student_header {
+    display: flex;
+    justify-content: space-between; }
+    .main-white-card .student_header .all_student {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 33px;
+      letter-spacing: -0.01em;
+      color: #000000; }
+    .main-white-card .student_header .status_student_name {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      letter-spacing: -0.01em;
+      color: #16C098; }
+    .main-white-card .student_header .left_student_header {
+      display: flex; }
+      .main-white-card .student_header .left_student_header .first_input_div {
+        box-sizing: border-box;
+        position: relative; }
+        .main-white-card .student_header .left_student_header .first_input_div .serach {
+          position: absolute;
+          margin-left: 10px;
+          margin-top: 7px; }
+        .main-white-card .student_header .left_student_header .first_input_div .search_student {
+          padding: 0 5px 0 40px;
+          background-color: #EAFDF6;
+          outline: none;
+          border-radius: 10px;
+          border: none;
+          width: 300px;
+          height: 40px; }
+      .main-white-card .student_header .left_student_header .status_student_select {
+        width: 170px;
+        border-radius: 10px;
+        margin-left: 40px;
+        background-color: #EAFDF6;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        padding: 0 5px; }
+        .main-white-card .student_header .left_student_header .status_student_select p {
+          margin-top: 13px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 18px;
+          letter-spacing: -0.01em;
+          color: #7E7E7E; }
+          .main-white-card .student_header .left_student_header .status_student_select p select {
+            border: none;
+            outline: none; }
+  .main-white-card .table-hover thead tr {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #B5B7C0 !important; }
+
+.active {
+  width: 84.21px;
+  height: 29px;
+  background: rgba(22, 192, 152, 0.38);
+  border: 1px solid #00B087;
+  border-radius: 4px;
+  color: #008767;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.Inactive {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  width: 80px;
+  height: 29px;
+  background: #FFC5C5;
+  border: 1px solid #DF0404;
+  border-radius: 4px;
+  color: #DF0404; }
+
+a {
+  text-decoration: none !important; }
+
+.my-pagination {
+  width: 100%;
+  text-align: center; }
+  .my-pagination .pagination {
+    margin-top: 3rem;
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+    gap: 5px; }
+    .my-pagination .pagination a {
+      color: black !important; }
+  .my-pagination .page-num {
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 400; }
+    .my-pagination .page-num:hover {
+      background-color: #F0F2F5;
+      color: white; }
+  .my-pagination .active {
+    background-color: #F0F2F5;
+    color: white; }
+
+/*# sourceMappingURL=student.css.map */

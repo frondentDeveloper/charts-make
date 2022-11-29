@@ -1,0 +1,16 @@
+.chart-in-js{
+  width: 97%;
+  margin-top: 30px;
+  margin-left: 20px;
+  box-sizing: border-box;
+  display: flex;
+  .in_chart{
+    display: flex;
+    width: 70%;
+    img{
+      position: absolute;
+      margin-top: -50px;
+      margin-left: 53%;
+    }
+  }
+}

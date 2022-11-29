@@ -1,0 +1,108 @@
+.big-group-white {
+  margin-top: 30px;
+  width: 97%;
+  background-color: #FEFEFE;
+  margin-left: 20px;
+  min-height: 100px;
+  border-radius: 10px;
+  padding: 20px; }
+  .big-group-white .header-group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+    .big-group-white .header-group .Groups {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 39px;
+      color: #000000; }
+    .big-group-white .header-group .date-group {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      color: #000000; }
+  .big-group-white .count-all {
+    margin-top: 50px;
+    display: flex; }
+    .big-group-white .count-all .active_group:nth-child(2) {
+      margin-left: 20px; }
+    .big-group-white .count-all .active_group:nth-child(3) {
+      margin-left: 20px; }
+    .big-group-white .count-all .active_group p {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 34px; }
+      .big-group-white .count-all .active_group p:nth-child(2) {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #838383;
+        margin-top: -11px; }
+  .big-group-white .container .row {
+    justify-content: space-between; }
+    .big-group-white .container .row .col-xl-3 {
+      border-radius: 15px;
+      padding: 15px;
+      margin: 10px;
+      background-color: #FEE4CB; }
+      .big-group-white .container .row .col-xl-3 .date-end {
+        justify-content: space-between;
+        display: flex;
+        width: 100%; }
+        .big-group-white .container .row .col-xl-3 .date-end .for-date-end {
+          cursor: pointer;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 12px;
+          color: #6F6F6F; }
+      .big-group-white .container .row .col-xl-3 .name-teacher {
+        margin-top: 20px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000; }
+      .big-group-white .container .row .col-xl-3 .count_num {
+        margin-top: 8px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        color: #6F6F6F; }
+      .big-group-white .container .row .col-xl-3 p {
+        margin-top: 15px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        color: #242424; }
+      .big-group-white .container .row .col-xl-3 .progress {
+        height: 10px;
+        margin-top: -10px; }
+        .big-group-white .container .row .col-xl-3 .progress .progress-bar {
+          height: 10px;
+          font-size: 10px;
+          background: #FF942E; }
+      .big-group-white .container .row .col-xl-3 .teacher__top {
+        display: flex;
+        margin-top: 17px;
+        justify-content: space-between; }
+        .big-group-white .container .row .col-xl-3 .teacher__top .name_teacher {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 15px;
+          color: #6F6F6F; }
+        .big-group-white .container .row .col-xl-3 .teacher__top .name_teacher_img img {
+          margin-left: -5px;
+          cursor: pointer; }
+      .big-group-white .container .row .col-xl-3:nth-child(2) {
+        background-color: #DBF6FD; }
+      .big-group-white .container .row .col-xl-3:nth-child(6) {
+        background-color: #DBF6FD; }
+
+/*# sourceMappingURL=group.css.map */
