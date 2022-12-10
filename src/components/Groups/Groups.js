@@ -39,7 +39,7 @@ function Groups(props) {
     const wish = `Good ${(hour < 12 && 'Morning') || (hour < 17 && 'Afternoon') || 'Evening'}, `;
     const time = today.toLocaleTimeString(locale, { hour: 'numeric', hour24: true, minute: 'numeric' });
 
-    const time1 = new Date().toLocaleTimeString();
+   
 
 
     return (
@@ -92,7 +92,7 @@ function Groups(props) {
                                 </div>
                             ))
                         }
-                        <p>{time1}</p>
+                        
                     </div>
                 </div>
             </div>

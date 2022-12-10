@@ -1,5 +1,6 @@
 import React from 'react';
 import { Chart } from "react-google-charts";
+import ForDashboard from '../forDashboard';
 import "./chart.scss";
 
 
@@ -27,6 +28,7 @@ function FirstComponent(props) {
   const text = "Yillik statistika"
   return (
       <>
+      <ForDashboard/>
         <div className="chart-in-js">
           <div className="in_chart">
             <Chart chartType="ColumnChart" width="100%" height="400px" data={data} />

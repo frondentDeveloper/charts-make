@@ -1,12 +1,13 @@
 .main-content{
   display: flex;
   justify-content: center;
+  min-height: 100%;
   .in-main-content{
     width: 100%;
     display: flex;
     .menu{
       padding: 30px;
-      height: 977px;
+      min-height: 977px;
       width: 17%;
       background-color: #ffffff;
       box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
@@ -39,9 +40,31 @@
           }
         }
       }
+      .for-date{
+        margin-top: 90%;
+        width: 250px;
+        height: 150px;
+        background: linear-gradient(107.91deg, #EAABF0 7.37%, #4623E9 95.19%);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: 600;
+        font-size: 32px;
+      }
+      .img-ss{
+        margin-top: 5%;
+        width: 100%;
+        cursor: pointer;
+      }
+    }
+    .btn-primary1{
+      display: none;
     }
     .content{
-      width: 83%;
+      width: 100%;
+      min-height: 100px;
       padding: 0 80px 0 0;
       background-color: #eafdf6;
       .navbar{
@@ -138,3 +161,940 @@
     }
   }
 }
+
+
+@media (min-width:1200px) and (max-width:1440px) {
+  .main-content{
+    display: flex;
+    justify-content: center;
+    .in-main-content{
+      width: 100%;
+      min-height: 100%;
+      display: flex;
+      .menu{
+        padding: 30px;
+        height: 977px;
+        width: 17%;
+        background-color: #ffffff;
+        box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+        .for-logo{
+          cursor: pointer;
+          img{
+            width: 150px;
+          }
+        }
+        .main-child-menu{
+          margin-top: 40px;
+          .child-menu{
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 10px;
+            display: flex;
+            padding: 10px 15px;
+            width: 100%;
+            height: 50px;
+            img{
+              width: 25px;
+              height: 25px;
+            }
+            p{
+              margin-top: 2px;
+              margin-left: 10px;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 21px;
+              letter-spacing: -0.01em;
+              color: #9197B3;
+            }
+          }
+        }
+        .for-date{
+          margin-top: 90%;
+          width: 180px;
+          height: 150px;
+          background: linear-gradient(107.91deg, #EAABF0 7.37%, #4623E9 95.19%);
+          border-radius: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+          font-weight: 600;
+          font-size: 32px;
+        }
+        .img-ss{
+          margin-top: 5%;
+          width: 100%;
+          cursor: pointer;
+        }
+      }
+      .btn-primary1{
+        display: none;
+      }
+      .content{
+        width: 100%;
+        min-height: 100%;
+        padding: 0 80px 0 0;
+        background-color: #eafdf6;
+        .name{
+         h2{
+          font-size: 27px!important;
+         }
+        }
+        .navbar{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0 20px;
+          width: 100%;
+          height: 70px;
+          .right-nav{
+            display: flex;
+            .img-group{
+              width: 200px;
+              img{
+                cursor: pointer;
+                margin-left:20px;
+              }
+            }
+            input{
+              outline: none;
+              box-shadow: none;
+              width: 250px;
+              border-radius: 10px;
+              border: none;
+              height: 30px;
+              padding: 0 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  .big-card{
+    align-items: center;
+    width: 97%;
+    height: 151px;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 35px;
+    .in-bid-card{
+      width: 30%;
+      display: flex;
+      .big-img{
+        img{
+          height: 100px;
+        }
+      }
+      p{
+        margin-left: 10px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: #ACACAC;
+      }
+      .count{
+        margin-left: 10px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: px;
+        line-height: 100%;
+        color: #333333;
+      }
+      .in-big-card-child-man{
+        display: flex;
+        margin-top: 7px;
+        margin-left: 10px;
+        img{
+          margin: -3px;
+        }
+      }
+      .in-big-card-child{
+        display: flex;
+        margin-top: 3px;
+        img{
+          margin-left: 10px;
+          height: 25px;
+          margin-top: 5px;
+        }
+        p{
+          color: red;
+          margin-top: 7px;
+        }
+        .price{
+          font-size: 18px;
+          font-weight: 500;
+          margin-top: 4px;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+  
+}
+
+
+@media (min-width:990px) and (max-width:1200px) {
+  .main-content{
+    display: flex;
+    justify-content: center;
+    min-height: 100%;
+    .in-main-content{
+      width: 100%;
+      display: flex;
+      .menu{
+        padding: 30px;
+        height: 977px;
+        width: 20%;
+        background-color: #ffffff;
+        box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+        .for-logo{
+          cursor: pointer;
+          img{
+            width: 130px;
+          }
+        }
+        .main-child-menu{
+          display: flex;
+          flex-direction: column;
+          align-items:center;
+          margin-top: 40px;
+          .child-menu{
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 10px;
+            display: flex;
+            padding: 10px 15px;
+            width: 100%;
+            height: 42px;
+            border: 1px solid;
+            box-sizing: border-box;
+            img{
+              margin-top: 3px;
+              width: 20px;
+              height: 20px;
+            }
+            p{
+              
+              margin-left: 10px;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 21px;
+              letter-spacing: -0.01em;
+              color: #9197B3;
+            }
+          }
+        }
+      }
+      .btn-primary1{
+        display: none;
+      }
+      .content{
+        width: 100%;
+        min-height: 100%;
+        padding: 0 80px 0 0;
+        background-color: #eafdf6;
+        .name{
+         h2{
+          font-size: 27px!important;
+         }
+        }
+        .navbar{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0 20px;
+          width: 100%;
+          height: 70px;
+          .right-nav{
+            display: flex;
+            .img-group{
+              width: 200px;
+              img{
+                cursor: pointer;
+                margin-left:20px;
+              }
+            }
+            input{
+              outline: none;
+              box-shadow: none;
+              width: 250px;
+              border-radius: 10px;
+              border: none;
+              height: 30px;
+              padding: 0 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  .big-card{
+    align-items: center;
+    width: 100%;
+    height: 151px;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 35px;
+    .in-bid-card{
+      width: 30%;
+      display: flex;
+      .big-img{
+        img{
+          height: 90px;
+        }
+      }
+      p{
+        margin-left: 10px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 21px;
+        color: #ACACAC;
+      }
+      .count{
+        margin-left: 10px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 100%;
+        color: #333333;
+      }
+      .in-big-card-child-man{
+        display: flex;
+        margin-top: 7px;
+        margin-left: 10px;
+        img{
+          width: 18px;
+        }
+      }
+      .in-big-card-child{
+        display: flex;
+        margin-top: 3px;
+        img{
+          margin-left: 10px;
+          height: 25px;
+          width: 17px;
+          margin-top: 5px;
+        }
+        p{
+          color: red;
+          margin-top: 7px;
+        }
+        .price{
+          font-size: 18px;
+          font-weight: 500;
+          margin-top: 4px;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+  
+}
+
+@media (min-width:768px) and (max-width:990px) {
+
+  .main-content{
+    display: flex;
+    justify-content: center;
+    min-height: 100%;
+    .in-main-content{
+      width: 100%;
+      display: flex;
+      .menu{
+        display: none;
+        .for-date{
+         display: none;
+        }
+        .img-ss{
+          display: none;
+        }      
+      }
+      .btn-primary1{
+        background-color: transparent;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        box-shadow: none;
+        position: absolute;
+        margin-left: 93%;
+        margin-top: 12px;
+        display: block!important;
+        width: 40px;
+        height: 40px;
+        z-index: 2;
+        box-sizing: border-box;
+        img{
+          width: 40px;
+          height: 40px;
+        }
+      }
+      .offcanvas-start{
+        .main-child-menu{
+          display: flex;
+          flex-direction: column;
+          align-items:center;
+          margin-top: 40px;
+          .child-menu{
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 10px;
+            display: flex;
+            padding: 10px 15px;
+            width: 80%;
+            height: 42px;
+            border: 1px solid;
+            box-sizing: border-box;
+            img{
+              margin-top: 3px;
+              width: 20px;
+              height: 20px;
+            }
+            p{
+              
+              margin-left: 10px;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 21px;
+              letter-spacing: -0.01em;
+              color: #9197B3;
+            }
+          }
+        }
+      }
+      .content{
+        width: 100%;
+        min-height: 1000px;
+        padding: 0 80px 0 0;
+        background-color: #eafdf6;
+        .name{
+         h2{
+          font-size: 27px!important;
+         }
+        }
+        .navbar{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0 20px;
+          width: 100%;
+          height: 70px;
+          .right-nav{
+            display: flex;
+            .img-group{
+              width: 200px;
+              img{
+                cursor: pointer;
+                margin-left:20px;
+              }
+            }
+            input{
+              outline: none;
+              box-shadow: none;
+              width: 250px;
+              border-radius: 10px;
+              border: none;
+              height: 30px;
+              padding: 0 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  .big-card{
+    align-items: center;
+    width: 100%;
+    height: 151px;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 35px;
+    .in-bid-card{
+      width: 30%;
+      display: flex;
+      .big-img{
+        img{
+          height: 90px;
+        }
+      }
+      p{
+        margin-left: 10px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 21px;
+        color: #ACACAC;
+      }
+      .count{
+        margin-left: 10px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 100%;
+        color: #333333;
+      }
+      .in-big-card-child-man{
+        display: flex;
+        margin-top: 7px;
+        margin-left: 10px;
+        img{
+          width: 18px;
+        }
+      }
+      .in-big-card-child{
+        display: flex;
+        margin-top: 3px;
+        img{
+          margin-left: 10px;
+          height: 25px;
+          width: 17px;
+          margin-top: 5px;
+        }
+        p{
+          color: red;
+          margin-top: 7px;
+        }
+        .price{
+          font-size: 18px;
+          font-weight: 500;
+          margin-top: 4px;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+  
+}
+
+@media (min-width:576px) and (max-width:768px) {
+
+  .main-content{
+    display: flex;
+    justify-content: center;
+    min-height: 100%;
+    .in-main-content{
+      width: 100%;
+      display: flex;
+      .menu{
+        display: none; 
+        .for-date{
+          display: none;
+         }
+         .img-ss{
+           display: none;
+         }         
+      }
+      .btn-primary1{
+        background-color: transparent;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        box-shadow: none;
+        position: absolute;
+        margin-left: 93%;
+        margin-top: 12px;
+        display: block!important;
+        width: 40px;
+        height: 40px;
+        z-index: 2;
+        box-sizing: border-box;
+        img{
+          width: 40px;
+          height: 40px;
+        }
+      }
+      .offcanvas-start{
+        .main-child-menu{
+          display: flex;
+          flex-direction: column;
+          align-items:center;
+          margin-top: 40px;
+          .child-menu{
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 10px;
+            display: flex;
+            padding: 10px 15px;
+            width: 80%;
+            height: 42px;
+            border: 1px solid;
+            box-sizing: border-box;
+            img{
+              margin-top: 3px;
+              width: 20px;
+              height: 20px;
+            }
+            p{
+              
+              margin-left: 10px;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 21px;
+              letter-spacing: -0.01em;
+              color: #9197B3;
+            }
+          }
+        }
+      }
+      .content{
+        width: 100%;
+        min-height: 1000px;
+        padding: 0 80px 0 0;
+        background-color: #eafdf6;
+        .name{
+         h2{
+          margin-top: 10px;
+          font-size: 27px!important;
+         }
+        }
+        .navbar{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0 20px;
+          width: 100%;
+          height: 70px;
+          .right-nav{
+            display: flex;
+            .img-group{
+              margin-left: 220px;
+              margin-top: -43px;
+              width: 200px;
+              img{
+                cursor: pointer;
+                margin-left:30px;
+              }
+            }
+            input{
+              margin-top: -45px;
+              outline: none;
+              box-shadow: none;
+              width: 250px;
+              border-radius: 10px;
+              border: none;
+              height: 30px;
+              padding: 0 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  .big-card{
+    align-items: center;
+    width: 100%;
+    height: 151px;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 35px;
+    .in-bid-card{
+      width: 30%;
+      display: flex;
+      .big-img{
+        img{
+          height: 70px;
+        }
+      }
+      p{
+        margin-left: 10px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 21px;
+        color: #ACACAC;
+      }
+      .count{
+        margin-left: 10px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 100%;
+        color: #333333;
+      }
+      .in-big-card-child-man{
+        display: flex;
+        margin-top: 7px;
+        margin-left: 10px;
+        img{
+          width: 18px;
+        }
+      }
+      .in-big-card-child{
+        display: flex;
+        margin-top: 3px;
+        img{
+          margin-left: 10px;
+          height: 25px;
+          width: 17px;
+          margin-top: 5px;
+        }
+        p{
+          color: red;
+          margin-top: 7px;
+        }
+        .price{
+          font-size: 18px;
+          font-weight: 500;
+          margin-top: 4px;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+  
+}
+
+@media (min-width:378px) and (max-width:576px) {
+
+  .main-content{
+    display: flex;
+    justify-content: center;
+    min-height: 100%;
+    .in-main-content{
+      width: 100%;
+      display: flex;
+      .menu{
+        display: none;    
+         .for-date{
+         display: none;
+        }
+        .img-ss{
+          display: none;
+        }      
+      }
+      .btn-primary1{
+        background-color: transparent;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        box-shadow: none;
+        position: absolute;
+        margin-left: 85%;
+        margin-top: 12px;
+        display: block!important;
+        width: 40px;
+        height: 40px;
+        z-index: 2;
+        box-sizing: border-box;
+        img{
+          width: 40px;
+          height: 40px;
+        }
+      }
+      .offcanvas-start{
+        .main-child-menu{
+          display: flex;
+          flex-direction: column;
+          align-items:center;
+          margin-top: 40px;
+          .child-menu{
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 10px;
+            display: flex;
+            padding: 10px 15px;
+            width: 80%;
+            height: 42px;
+            border: 1px solid;
+            box-sizing: border-box;
+            img{
+              margin-top: 3px;
+              width: 20px;
+              height: 20px;
+            }
+            p{
+              
+              margin-left: 10px;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 21px;
+              letter-spacing: -0.01em;
+              color: #9197B3;
+            }
+          }
+        }
+      }
+      .content{
+        width: 100%;
+        min-height: 1450px;
+        padding: 0 80px 0 0;
+        background-color: #eafdf6;
+        .name{
+         h2{
+          margin-top: 10px;
+          font-size: 27px!important;
+         }
+        }
+        .navbar{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0 20px;
+          width: 100%;
+          height: 70px;
+          .right-nav{
+            display: flex;
+            display: none;
+            .img-group{
+              margin-left: 220px;
+              margin-top: -43px;
+              width: 200px;
+              img{
+                cursor: pointer;
+                margin-left:30px;
+              }
+            }
+            input{
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  .big-card{
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    .in-bid-card{
+      width: 30%;
+      display: flex;
+      margin-left: -28%;
+      .big-img{
+        img{
+          height: 70px;
+        }
+      }
+      p{
+        margin-left: 10px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 21px;
+        color: #ACACAC;
+      }
+      .count{
+        margin-left: 10px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 100%;
+        color: #333333;
+      }
+      .in-big-card-child-man{
+        display: flex;
+        margin-top: 7px;
+        margin-left: 10px;
+        img{
+          width: 18px;
+        }
+      }
+      .in-big-card-child{
+        display: flex;
+        margin-top: 3px;
+        img{
+          margin-left: 10px;
+          height: 25px;
+          width: 17px;
+          margin-top: 5px;
+        }
+        p{
+          color: red;
+          margin-top: 7px;
+        }
+        .price{
+          font-size: 18px;
+          font-weight: 500;
+          margin-top: 4px;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+  
+}
+
+
+.active_menu{
+  background-color: #5932EA;
+  color: white;
+}
+
+.active_menu2{
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  display: flex;
+  padding: 10px 15px;
+  width: 100%;
+  height: 50px;
+  background-color: #5932EA;
+  img{
+    width: 25px;
+    height: 25px;
+  }
+  p{
+    margin-top: 2px;
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: white!important;
+  }
+}
+.active_menu{
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  display: flex;
+  padding: 10px 15px;
+  width: 100%;
+  height: 50px;
+  background-color: #5932EA;
+  img{
+    width: 25px;
+    height: 25px;
+  }
+  p{
+    margin-top: 2px;
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: white!important;
+  }
+}
+
